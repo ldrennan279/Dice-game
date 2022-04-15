@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#container {
+  background-image: url("/edge2edge-media-uKlneQRwaxY-unsplash.jpg");
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  text-align: center;
+}
+h1,
+h2,
+h3,
+h4,
+#message {
+  color: white;
+}
+#gameName {
+  font-size: 55px;
+  color: #ff0000;
+  text-shadow: 0px 0px 20px white;
+}
+#gameObjective {
+  font-size: 35px;
+}
+#playerHeader {
+  font-size: 45px;
+}
+#score1,
+#score2 {
+  margin: 10px;
+  font-size: 35px;
+}
+#gamersPanel {
+  margin: 30px auto;
+  max-width: 60%;
+  min-width: 40%;
+  height: 500px;
+  background: rgba(99, 99, 99, 0.5);
+  border-radius: 10px;
+}
+#playerScoreInfo {
+  justify-content: space-between;
+  display: flex;
+}
+#player1,
+#player2 {
+  margin: 20px;
+  width: 50%;
+}
+.active {
+  box-shadow: 0px 0px 50px yellow;
+}
+#dice1,
+#dice2 {
+  width: 200px;
+  height: 200px;
+  margin: 20px auto;
+  justify-content: space-between;
+  background: #ff0000;
+  color: white;
+  border-radius: 10px;
+}
+#dice1Result,
+#dice2Result {
+  font-size: 105px;
+  transform: translatey(30%);
+}
+#message {
+  font-size: 75px;
+  text-shadow: 0px 0px 30px Yellow;
+}
+#rollDice {
+  background: #1606fc;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  margin: 10px auto;
+  padding: 20px 45px;
+  font-size: 25px;
+  font-weight: bold;
+  cursor: pointer;
+}
+#resetGame {
+  display: none;
+  background: #1606fc;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  margin: 10px auto;
+  padding: 20px 45px;
+  font-size: 25px;
+  font-weight: bold;
+  cursor: pointer;
+}
